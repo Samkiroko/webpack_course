@@ -1,0 +1,16 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "description": "introduction to webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/index.js --output ./bundle.js",
+    "build": "webpack --mode production ./src/index.js --output ./bundle.js"
+  },
+  "author": "Samuel kiroko N",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}

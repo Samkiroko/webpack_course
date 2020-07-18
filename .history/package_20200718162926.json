@@ -1,0 +1,14 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "description": "introduction to webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Samuel kiroko N",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.43.0"
+  }
+}
